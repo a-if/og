@@ -1,25 +1,26 @@
-name = "auto-reaction-bot"
+name = "auto-reaction-123"
 main = "api/worker.js"
 compatibility_date = "2026-10-02"
 
+# Deploy-to-Cloudflare provisions these resources automatically.
+# Cloudflare replaces the demo database ID with the real ID during setup.
 [[d1_databases]]
 binding = "DB"
 database_name = "reaction-bot"
-database_id = "demo"
+database_id = "cdaa6318-dc11-4514-9ea1-57cf79bfe89b"
 
 [[queues.producers]]
 binding = "BROADCAST_QUEUE"
-queue = "broadcast-queue-v6"
+queue = "broadcast-queue"
 
 [[queues.consumers]]
-queue = "broadcast-queue-v6"
+queue = "broadcast-queue"
 max_batch_size = 1
 max_concurrency = 1
 max_retries = 1
 
 [vars]
-BOT_USERNAME = "Qjiibot"
-BOT_TOKEN = "7459677349:AAH9Hf4LbustSWECFFqeb5V4xyzNC8L321g"
+BOT_USERNAME = "ReactionsXBot"
 EMOJI_LIST = "👍  ❤️ 🔥 🥰 👏 😁 🤔 🤯 🎉 🤩  🙏 👌 🕊 🥱 😍 🐳 ❤️‍🔥 🌚 💯 🤣 😂  🍓 🍾 💋 😎 👨‍💻 👀 🎃 🙈 😇 😨 🤝 ✍️ 🤗 🫡 🎅 🎄 ☃️ 💅 🤪 🗿 🆒 💘 🙉 🦄 😘 💊 🙊"
 RANDOM_LEVEL = "0"
 RESTRICTED_CHATS = "textify"
@@ -29,6 +30,7 @@ SUPPORT_URL = "https://t.me/TheComGC"
 START_ANIMATION = "https://graph.org/file/4bf5f939d9677934dead3-41662e678f6eca34b4.mp4"
 DONATE_ANIMATION = "https://graph.org/file/e64807a85f15706730cb2-b2e366b966eede7966.mp4"
 LOG_LEVEL = "info"
+BOT_TOKEN = "7459677349:AAH9Hf4LbustSWECFFqeb5V4xyzNC8L321g"
 AUTO_SET_WEBHOOK = "true"
 
 # BOT_TOKEN is intentionally not committed as a plain variable.
