@@ -18,7 +18,6 @@ max_concurrency = 1
 max_retries = 1
 
 [vars]
-[vars]
 BOT_USERNAME = "Qjiibot"
 BOT_TOKEN = "7459677349:AAH9Hf4LbustSWECFFqeb5V4xyzNC8L321g"
 EMOJI_LIST = "👍  ❤️ 🔥 🥰 👏 😁 🤔 🤯 🎉 🤩  🙏 👌 🕊 🥱 😍 🐳 ❤️‍🔥 🌚 💯 🤣 😂  🍓 🍾 💋 😎 👨‍💻 👀 🎃 🙈 😇 😨 🤝 ✍️ 🤗 🫡 🎅 🎄 ☃️ 💅 🤪 🗿 🆒 💘 🙉 🦄 😘 💊 🙊"
