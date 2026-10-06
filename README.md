@@ -28,7 +28,7 @@ A multi-platform Telegram bot built around one codebase. It supports automatic r
 
 ### Cloudflare Workers — recommended free-tier path
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/a-if/Reactions)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/a-if/og)
 
 Cloudflare's Deploy button can provision resources declared in `wrangler.toml`, including D1 and Queues. The Worker expects `BOT_TOKEN` as a secret/deployment value. `UPLOAD_URL` is **not required** in V6. Do not put your Telegram token in GitHub.
 
